@@ -1,5 +1,7 @@
 # Sentiment_Analysis_Ukrainian
 by Tianqi Zhao and Stone McLaren
+![Image text](https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg)
+![Image text](https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg)
 ## References:
 ### https://developer.twitter.com/en/docs/api-reference-index
 ### https://github.com/JustAnotherArchivist/snscrape/tree/master/snscrape/modules
