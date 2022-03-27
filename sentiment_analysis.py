@@ -7,6 +7,7 @@ from textblob import TextBlob
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 from sklearn.model_selection import StratifiedShuffleSplit
+from NN import Net
 
 def polarity(tweet):
     analysis = TextBlob(tweet)
@@ -46,7 +47,7 @@ for i in range(N):
         neu += 1
         y_feature.append(0)
 
-
+# Bag of Words
 from sklearn.feature_extraction.text import CountVectorizer
 cv = CountVectorizer(max_features=1500)
 X = cv.fit_transform(corpus).toarray()
@@ -60,6 +61,8 @@ for train_index, test_index in sss.split(X, y_feature):
     y_train = y_feature[train_index].copy()
     X_test = X[test_index].copy()
     y_test = y_feature[test_index].copy()
+
+net = Net(10, 2, "identity") # TBA
 
 from sklearn.ensemble import RandomForestClassifier
 classifier = RandomForestClassifier(n_estimators = 100, criterion = 'entropy', random_state = 0)
