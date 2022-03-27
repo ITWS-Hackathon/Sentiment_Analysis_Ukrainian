@@ -1,7 +1,9 @@
 # Sentiment_Analysis_Ukrainian
-by Tianqi Zhao and Stone McLaren
-![Image text](https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg)
-![Image text](https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg)
+## by Tianqi Zhao and Stone McLaren
+## [Introduction]
+### Ukraine Humanitarian/Refugee Crisis has become a world-class spot recently. In this project, we did sentiment analysis about 900 Tweets from Twitter about people's views of Ukrainian Crisis. And we also created a classifier using 90% of the Tweets, then test it on 90 Tweets to get the Confusion Matrix.
+![Image text](https://github.com/ITWS-Hackathon/Sentiment_Analysis_Ukrainian/blob/main/visualization/pie%20chart.png)
+![Image text](https://github.com/ITWS-Hackathon/Sentiment_Analysis_Ukrainian/blob/main/visualization/confision%20matrix.png)
 ## References:
 ### https://developer.twitter.com/en/docs/api-reference-index
 ### https://github.com/JustAnotherArchivist/snscrape/tree/master/snscrape/modules
