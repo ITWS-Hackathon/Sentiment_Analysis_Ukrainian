@@ -1,4 +1,5 @@
 # Sentiment_Analysis_Ukrainian
+by Tianqi Zhao and Stone McLaren
 ## References:
 ### https://developer.twitter.com/en/docs/api-reference-index
 ### https://github.com/JustAnotherArchivist/snscrape/tree/master/snscrape/modules
