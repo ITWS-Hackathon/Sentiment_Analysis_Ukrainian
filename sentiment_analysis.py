@@ -46,11 +46,11 @@ for i in range(N):
         neu += 1
         y_feature.append(0)
 
+
 from sklearn.feature_extraction.text import CountVectorizer
 cv = CountVectorizer(max_features=1500)
 X = cv.fit_transform(corpus).toarray()
 
-X = np.asarray(corpus)
 X = X.reshape(N, -1)
 y_feature = np.asarray(y_feature)
 # Split
