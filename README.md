@@ -1,6 +1,6 @@
 # Sentiment_Analysis_Ukrainian
 by Tianqi Zhao and Stone McLaren
-![Image text](https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg)
+![Image text](https://github.com/ITWS-Hackathon/Sentiment_Analysis_Ukrainian/blob/main/visualization/pie%20chart.png)
 ![Image text](https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg)
 ## References:
 ### https://developer.twitter.com/en/docs/api-reference-index
